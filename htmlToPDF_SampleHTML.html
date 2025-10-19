@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Sample PDF</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        h1 { color: #2E86C1; }
+        p { font-size: 14px; line-height: 1.5; }
+        table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .footer { margin-top: 40px; font-size: 12px; color: #666; }
+    </style>
+</head>
+<body>
+    <h1>Invoice #001</h1>
+    <p>Dear Customer,</p>
+    <p>Thank you for your order. Below are the details:</p>
+
+    <table>
+        <tr>
+            <th>Item</th>
+            <th>Qty</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Product A</td>
+            <td>2</td>
+            <td>$50</td>
+        </tr>
+        <tr>
+            <td>Product B</td>
+            <td>1</td>
+            <td>$30</td>
+        </tr>
+    </table>
+
+    <p>Total: <strong>$130</strong></p>
+
+    <p class="footer">Generated using SAP CPI + Groovy + PDFBox</p>
+</body>
+</html>
