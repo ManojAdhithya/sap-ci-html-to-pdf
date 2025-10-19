@@ -17,7 +17,7 @@ Tech Stack
 - Graphics2D
 - XmpBox
 
-- Setup Instructions
+Setup Instructions
 
 1. Download required JARs (latest stable versions recommended):
 
